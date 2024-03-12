@@ -1,5 +1,5 @@
 # iCloud files
-*DS_Store/
+*DS_Store*
 
 # Weird python stuff
-*__pycache__
+*__pycache__*
