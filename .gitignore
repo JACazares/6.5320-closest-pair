@@ -1,0 +1,5 @@
+# iCloud files
+*DS_Store/
+
+# Weird python stuff
+*__pycache__
