@@ -18,6 +18,7 @@ git clone https://github.com/JACazares/6.5230-closest-pair.git .
 ```
 3. Run the closest_point.py file
 ```
+cd 6.5230-closest-pair
 python closest_point.py
 ```
 
@@ -25,5 +26,7 @@ python closest_point.py
 There are three components to this.
 
 _algorithm.py_: Contains the code for the closest pair algorithm, runs in $O(N \lg^2 N)$, yields at every step where we need to update the image
+
 _draw_state.py_: Contains the ```draw_state``` function, which is used to draw the points and subsequent necessary lines, halfplanes, stripes, depending on which part of the algorithm we are currently executing
+
 _closest_point.py_: Contains the code to draw the main menu window, alongside button functionality and graphical point input.
